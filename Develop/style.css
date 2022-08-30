@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #520beb;
+  color: #ffffff;
+  padding: 24px;
+  line-height: 3;
+  font-size: 1.2rem;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a {
+  padding: 18px;
+  transition-property: color, background;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: #9d18ef;
+}
+
+header {
+  height: 150px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select:hover {
+  border-color: rgb(60, 53, 53);
+}
